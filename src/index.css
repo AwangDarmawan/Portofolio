@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+      font-family: 'Montserrat';
+      src: url('./assets/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
+  }
+  /* memodifikasi default */
+  
+  h1{
+      font-family:poppins ;
+  }
+  }
