@@ -1,14 +1,14 @@
 
 import React, { useState } from "react";
-import ReactJS from "./assets/img/iconSVG/react.svg"
-import Toggle from "./assets/img/iconSVG/Toogle.svg"
-import github from "./assets/img/png/github.png"
+import ReactJS from "./assets/img/iconSVG/react.svg";
+import Toggle from "./assets/img/iconSVG/Toogle.svg";
+import github from "./assets/img/png/github.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faEnvelope, faBriefcase, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 
 // aBOUT
-import Poto from './assets/img/png/Poto.png'
-import potoreact from './assets/img/iconSVG/react.svg'
+import Poto from './assets/img/png/Poto.png';
+import potoreact from './assets/img/iconSVG/react.svg';
 
 // sKILL
 import Html from './assets/img/png/Html.png';
