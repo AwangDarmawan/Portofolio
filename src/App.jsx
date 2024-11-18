@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faEnvelope, faBriefcase, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 
 // aBOUT
-import Poto from './assets/img/png/Poto.png';
+import Poto from './assets/img/png/Awang.jpg';
 import potoreact from './assets/img/iconSVG/react.svg';
 
 // sKILL
