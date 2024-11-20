@@ -153,32 +153,32 @@ function App() {
     <section id='Skill' className='py-9 px-10  '>
       <div className='container'>
         <h1 className=' text-center text-4xl  text-blue-600 font-black'>Skills</h1>
-        <div className='my-5  grid grid-cols-12 sm:mx-2'>
+        <div className='my-5  grid grid-cols-12 '>
           <div className='my-5 lg:col-span-3  md:col-span-3 sm:col-span-3 col-span-3 justify-center items-center flex flex-col gap-4'>
             <img src={Html} alt="" className='w-20 h-20 '/>
             <span className='font-bold text-blue-600 font-poppins'>Html</span>
           </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3 col-span-3 flex justify-center items-center flex-col '>
+          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3 col-span-3 flex justify-center items-center flex-col gap-4'>
             <img src={Css} alt="" className='w-20 h-20'/>
             <span className='font-bold text-blue-600 font-poppins'>Css</span>
           </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3 col-span-3 flex justify-center items-center flex-col'>
+          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3 col-span-3 flex justify-center items-center flex-col gap-4'>
             <img src={boostrap} alt="" className='w-20 h-20'/>
             <span className='font-bold text-blue-600 font-poppins'>Bootrap</span>
           </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3 col-span-3 flex justify-center items-center flex-col'>
+          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3 col-span-3 flex justify-center items-center flex-col gap-4'>
             <img src={tail} alt="" className='w-20 h-20'/>
             <span className='font-bold text-blue-600 font-poppins'>TailwindCSS</span>
           </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3 col-span-3 flex justify-center items-center flex-col'>
+          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3 col-span-3 flex justify-center items-center flex-col gap-4'>
             <img src={js} alt="" className='w-20 h-20'/>
             <span className='font-bold text-blue-600 font-poppins'>JavaScript</span>
           </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3  col-span-3 flex justify-center items-center flex-col'>
+          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3  col-span-3 flex justify-center items-center flex-col gap-4'>
             <img src={react} alt="" className='w-20 h-20'/>
             <span className='font-bold text-blue-600 font-poppins'>React JS</span>
           </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3  col-span-3 flex justify-center items-center flex-col'>
+          <div className='lg:col-span-3  md:col-span-3 sm:col-span-3  col-span-3 flex justify-center items-center flex-col gap-4'>
             <img src={Ts} alt="" className='w-20 h-20'/>
             <span className='font-bold text-blue-600 font-poppins'>TypeScript</span>
           </div>
@@ -302,10 +302,10 @@ function App() {
         </div>
        </section>
 
-
-       <section className="py-9 px-20">
-       <div className='container '>
-       <h1 className=' text-center text-sm font-poppins  text-white font-black w-full h-50 bg-blue-600 mb-40'>Copyright Awang Darmawan 2024 New</h1>
+        {/* Footer */}
+       <section >
+       <div className="py-9 px-20">
+       <h1 className=' text-center text-sm font-poppins text-white font-black bg-blue-600  py-20'>Copyright Awang Darmawan New 2024</h1>
        </div>
        </section>
     </>
