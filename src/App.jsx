@@ -37,7 +37,7 @@ function App() {
   return (
     <>
     {/* Nav */}
-    <nav className="py-4 px-20 fixed  w-full bg-slate-500">
+    <nav className="py-4 px-20 fixed  w-full bg-blue-600">
       <div className="container  ">
         <div className="flex items-center justify-between">
             <div className="flex flex-row-reverse gap-2 ">
@@ -46,7 +46,7 @@ function App() {
                     alt=""
                     className="order-1 sm:order-2 w-14 h-14 animate-spin-slow"
                 />
-                <span className="my-auto font-black text-white ">FRONTEND WEB</span>
+                <span className="my-auto font-black text-white">FRONTEND WEB</span>
             </div>
           
           <img
@@ -89,7 +89,7 @@ function App() {
         </div>
         {navOpen && (
           <div
-            className="z-50 fixed bottom-0 right-0 left-0 p-4  bg-slate-500 border lg:hidden "
+            className="z-50 fixed bottom-0 right-0 left-0 p-4  bg-blue-600 border lg:hidden "
           >
             <ul className="flex justify-between">
               <li>
