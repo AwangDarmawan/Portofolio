@@ -19,7 +19,7 @@ function Contak() {
             <a href="https://instagram.com/awng_drmwn" className='flex gap-2 bg-gray-300 font-bold rounded-xl w-60 text-xl justify-center '> <img src={Ig} alt="" className='w-10' /> --@awng_drmwn  </a>
         </div>
            
-            
+            {/* ddbhdb */}
         </div>
        </section>
     </>
