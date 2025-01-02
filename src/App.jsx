@@ -32,7 +32,7 @@ import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 import Wa from "./assets/img/png/Wa.png";
 import Ig from "./assets/img/png/IG.png";
 function App() {
-  const [navOpen, setNavOpen] = useState(false);
+  const [navOpen, setNavOpen] = useState(true);
 
   return (
     <>
