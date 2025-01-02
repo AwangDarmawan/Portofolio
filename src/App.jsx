@@ -1,43 +1,45 @@
 
-import React, { useState } from "react";
-import ReactJS from "./assets/img/iconSVG/react.svg";
-import Toggle from "./assets/img/iconSVG/Toogle.svg";
-import github from "./assets/img/png/github.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faEnvelope, faBriefcase, faLightbulb } from '@fortawesome/free-solid-svg-icons';
+// import React, { useState } from "react";
+// import ReactJS from "./assets/img/iconSVG/react.svg";
+// import Toggle from "./assets/img/iconSVG/Toogle.svg";
+// import github from "./assets/img/png/github.png";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHome, faEnvelope, faBriefcase, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 
-// aBOUT
-import Poto from './assets/img/png/Awang.jpg';
-import potoreact from './assets/img/iconSVG/react.svg';
+// // aBOUT
+// import Poto from './assets/img/png/Awang.jpg';
+// import potoreact from './assets/img/iconSVG/react.svg';
 
-// sKILL
-import Html from './assets/img/png/Html.png';
-import Css from './assets/img/png/css.png';
-import boostrap from './assets/img/png/Boostrap.png';
-import tail from './assets/img/png/Tailwindcss.png';
-import js from './assets/img/png/images.png';
-import react from './assets/img/png/ReactJs.png';
-import Ts from './assets/img/png/Ts.png';
+// // sKILL
+// import Html from './assets/img/png/Html.png';
+// import Css from './assets/img/png/css.png';
+// import boostrap from './assets/img/png/Boostrap.png';
+// import tail from './assets/img/png/Tailwindcss.png';
+// import js from './assets/img/png/images.png';
+// import react from './assets/img/png/ReactJs.png';
+// import Ts from './assets/img/png/Ts.png';
 
-import projek1 from './assets/img/png/LearnX.png';
-import Chat from './assets/img/png/Chating.png';
-import Movie from './assets/img/png/Movie.png';
-import Sims from './assets/img/png/Sims.png';
-import Kartap from './assets/img/png/Kartap.png';
-import grow from './assets/img/png/Grow.png';
-import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+// import projek1 from './assets/img/png/LearnX.png';
+// import Chat from './assets/img/png/Chating.png';
+// import Movie from './assets/img/png/Movie.png';
+// import Sims from './assets/img/png/Sims.png';
+// import Kartap from './assets/img/png/Kartap.png';
+// import grow from './assets/img/png/Grow.png';
+// import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 
 // contack
-import Wa from "./assets/img/png/Wa.png";
-import Ig from "./assets/img/png/IG.png";
+// import Wa from "./assets/img/png/Wa.png";
+// import Ig from "./assets/img/png/IG.png";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Portofolio from "./Pages/Portofolio";
 function App() {
-  const [navOpen, setNavOpen] = useState(true);
+  // const [navOpen, setNavOpen] = useState(true);
 
   return (
     <>
     {/* Nav */}
-    <nav className="py-4 px-20 fixed  w-full bg-blue-600">
+    {/* <nav className="py-4 px-20 fixed  w-full bg-blue-600">
       <div className="container  ">
         <div className="flex items-center justify-between">
             <div className="flex flex-row-reverse gap-2 ">
@@ -122,10 +124,10 @@ function App() {
           </div>
         )}
       </div>
-    </nav>
+    </nav> */}
 
 {/* About */}
-    <section  id ="About" className='py-20 px-10 bg-blue-600'>
+    {/* <section  id ="About" className='py-20 px-10 bg-blue-600'>
         <div className='container '>
             <div className='grid grid-cols-12 sm:my-11 '>
             <div className='col-span-12 lg:col-span-6  md:col-span-6 sm:col-span-12 '>
@@ -146,11 +148,11 @@ function App() {
 
             </div>
         </div>
-      </section>
+      </section> */}
 
 
 {/* SkILL */}
-    <section id='Skill' className='py-9 px-10  '>
+    {/* <section id='Skill' className='py-9 px-10  '>
       <div className='container'>
         <h1 className=' text-center text-4xl  text-blue-600 font-black'>Skills</h1>
         <div className='my-5  grid grid-cols-12 '>
@@ -184,10 +186,10 @@ function App() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
 {/* Projects */}
-    <section id ="Projects" className='py-9 px-20   bg-purple-900'>
+    {/* <section id ="Projects" className='py-9 px-20   bg-purple-900'>
             <div className='container'>
                 <h1 className=' text-center text-4xl  text-white font-black'>Projects Me</h1>
                 <div className='grid grid-cols-12 my-5 '>
@@ -314,10 +316,10 @@ function App() {
                     </div>
                 </div>
                 </div>
-        </section>
+        </section> */}
 
 {/* Contact */}
-      <section id='Contact' className='py-9 px-10 my-10'>
+      {/* <section id='Contact' className='py-9 px-10 my-10'>
       <div className='container'>
         <h1 className=' text-center text-4xl  text-blue-600 font-black'>Contact Me</h1>
         <div className=' flex justify-center my-6'>
@@ -332,14 +334,19 @@ function App() {
            
             
         </div>
-       </section>
+       </section> */}
 
         {/* Footer */}
-       <section >
+       {/* <section >
        <div className="py-9 px-20">
        <h1 className=' text-center text-sm font-poppins text-white font-black bg-blue-600  py-20'>Copyright Awang Darmawan New 2024</h1>
        </div>
-       </section>
+       </section> */}
+        <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Portofolio />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

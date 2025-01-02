@@ -1,11 +1,11 @@
 import React from 'react'
-import Poto from '../assets/img/png/Poto.png'
+import Poto from '../assets/img/png/Awang.jpg'
 import potoreact from '../assets/img/iconSVG/react.svg'
 
 function About() {
   return (
     <>
-      <section  className='py-20 px-10 bg-blue-600'>
+      {/* <section className='py-20 px-10 bg-blue-600'> */}
         <div className='container '>
             <div className='grid grid-cols-12 sm:my-11 '>
             <div className='col-span-12 lg:col-span-6  md:col-span-6 sm:col-span-12 '>
@@ -26,7 +26,7 @@ function About() {
 
             </div>
         </div>
-      </section>
+      {/* </section> */}
     </>
   )
 }

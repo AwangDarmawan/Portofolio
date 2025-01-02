@@ -6,11 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faEnvelope, faBriefcase, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 
 function Nav() {
-  const [navOpen, setNavOpen] = useState(false);
+  const [navOpen, setNavOpen] = useState(true);
 
   return (
     <>
-    <nav className="py-4 px-20 fixed  w-full">
+     <nav className="py-4 px-20 fixed  w-full bg-blue-600">
       <div className="container  ">
         <div className="flex items-center justify-between">
             <div className="flex flex-row-reverse gap-2 ">
@@ -19,7 +19,7 @@ function Nav() {
                     alt=""
                     className="order-1 sm:order-2 w-14 h-14 animate-spin-slow"
                 />
-                <span className="my-auto font-black text-white bg-blue-700">FRONTEND WEB</span>
+                <span className="my-auto font-black text-white">FRONTEND WEB</span>
             </div>
           
           <img
@@ -31,22 +31,22 @@ function Nav() {
           <div className="order-2 hidden lg:block">
             <ul className="flex gap-16">
               <li>
-                <a href="" className="text-white bg-blue-700 text-sm font-black hover:  hover:bg-sky-700 ">
+                <a href="#About" className="text-white  text-sm font-black hover:  hover:bg-sky-700 ">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#Skills" className="text-white bg-blue-700 text-sm font-black hover:bg-sky-700  ">
+                <a href="#Skill" className="text-white  text-sm font-black hover:bg-sky-700  ">
                   Skills
                 </a>
               </li>
               <li>
-                <a href="" className="text-white  bg-blue-700 text-sm font-black hover: hover:bg-sky-700  ">
+                <a href="#Projects" className="text-white  text-sm font-black hover: hover:bg-sky-700  ">
                   Project
                 </a>
               </li>
               <li>
-                <a href="" className="text-white bg-blue-700 text-sm font-black hover: hover:bg-sky-700  ">
+                <a href="#Contact" className="text-white  text-sm font-black hover: hover:bg-sky-700  ">
                   Contact
                 </a>
               </li>
@@ -57,39 +57,37 @@ function Nav() {
               <img src={github} alt=""  className="w-6"/>
             </button>
            
-            {/* <button className="grow bg-ungu px-8 py-4 font-bold text-white rounded-full text-sm">
-              Sign Up
-            </button> */}
+            
           </div>
         </div>
         {navOpen && (
           <div
-            className="z-50 fixed bottom-0 right-0 left-0 p-4 bg-blue-600 border lg:hidden "
+            className="z-50 fixed bottom-0 right-0 left-0 p-4  bg-blue-600 border lg:hidden "
           >
             <ul className="flex justify-between">
               <li>
-                <button className="flex justify-center flex-col items-center gap-1 hover:bg-sky-700 ">
+                <a href="#About" className="flex justify-center flex-col items-center gap-1 hover:bg-sky-700 ">
                 <FontAwesomeIcon icon={faHome}  className="text-white"/> 
                   <a className=" text-white font-black text-base ">Home</a>
-                </button>
+                </a>
               </li>
               <li>
-                <button className="flex justify-center flex-col items-center gap-1 hover:bg-sky-700">
+                <a href="#Skill" className="flex justify-center flex-col items-center gap-1 hover:bg-sky-700">
                 <FontAwesomeIcon icon={faLightbulb} className="text-white" />
                   <span className="text-white font-black text-base text-bold">Skill</span>
-                </button>
+                </a>
               </li>
               <li>
-                <button className="flex justify-center flex-col items-center gap-1 hover:bg-sky-700">
+                <a href="#Projects" className="flex justify-center flex-col items-center gap-1 hover:bg-sky-700">
                 <FontAwesomeIcon icon={faBriefcase} className="text-white" /> 
                   <span className="text-white font-black text-base text-bold">Project</span>
-                </button>
+                </a>
               </li>
               <li>
-                <button className="flex justify-center flex-col items-center gap-1 hover:bg-sky-700">
+                <a href="#Contact" className="flex justify-center flex-col items-center gap-1 hover:bg-sky-700">
                 <FontAwesomeIcon icon={faEnvelope} className="text-white"/> 
                   <span className="text-white font-black text-base text-bold">Contact</span>
-                </button>
+                </a>
               </li>
               
             </ul>

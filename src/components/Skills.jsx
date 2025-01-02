@@ -11,7 +11,7 @@ import Ts from '../assets/img/png/Ts.png'
 function Skills() {
   return (
     <>
-    <section id='Skills' className='py-9 px-10  '>
+    {/* <section id='Skills' className='py-9 px-10'> */}
       <div className='container'>
         <h1 className=' text-center text-4xl  text-blue-600 font-black'>Skills</h1>
         <div className='my-5  grid grid-cols-12 sm:mx-2'>
@@ -45,7 +45,7 @@ function Skills() {
           </div>
         </div>
       </div>
-    </section>
+    {/* </section> */}
       
     </>
   )

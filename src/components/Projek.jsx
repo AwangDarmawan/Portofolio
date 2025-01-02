@@ -11,7 +11,7 @@ import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 function Projek() {
   return (
     <>
-       <section className='py-9 px-20   bg-purple-900'>
+       {/* <section className='py-9 px-20   bg-purple-900'> */}
             <div className='container'>
                 <h1 className=' text-center text-4xl  text-white font-black'>Projects Me</h1>
                 <div className='grid grid-cols-12 my-5 '>
@@ -106,7 +106,7 @@ function Projek() {
                     </div>
                 </div>
                 </div>
-        </section>
+        {/* </section> */}
     </>
   )
 }

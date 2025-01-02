@@ -6,7 +6,7 @@ import Ig from "../assets/img/png/IG.png"
 function Contak() {
   return (
     <>
-      <section id='Skills' className='py-9 px-10 my-10 '>
+      {/* <section id='Skills' className='py-9 px-10 my-10 '> */}
       <div className='container'>
         <h1 className=' text-center text-4xl  text-blue-600 font-black'>Contact Me</h1>
         <div className=' flex justify-center my-6'>
@@ -21,7 +21,7 @@ function Contak() {
            
             {/* ddbhdb */}
         </div>
-       </section>
+       {/* </section> */}
     </>
   )
 }
