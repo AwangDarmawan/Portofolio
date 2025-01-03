@@ -20,9 +20,14 @@ function Projek() {
                         <h3 className='text-xl  text-white font-black'>Movie List</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
                         Movie List adalah aplikasi yang dirancang khusus untuk meliha trailer film di bioskop dan bisa untuk memesan tiket </span>
+                        <div className="flex gap-2">
                         <a href="https://barudak.vercel.app/"  className='
-                        flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
+                        <a href="https://github.com/AwangDarmawan/chalengge-5"  className='
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                        </div>
                         <div className='flex flex-wrap gap-3 my-3 '>
                         <span className='bg-gray-300  rounded-xl font-semibold px-1'>#Boostrap</span>
                         <span className='bg-gray-300  rounded-xl font-semibold px-1'>#Api</span>
@@ -34,9 +39,15 @@ function Projek() {
                         <h3 className='text-xl  text-white font-black'>Websocket</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
                         Websocket adalah aplikasi di rancang khusus chating memberi informasi antara dua orang atau lebih</span>
+                        <div className="flex gap-2">
                         <a href="https://websocket-chat-client-alpha.vercel.app/"  className='  
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
+                   
+                        <a href="https://github.com/AwangDarmawan/websocket-chat"  className='
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                        </div>
                    
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
@@ -51,9 +62,14 @@ function Projek() {
                         <h3 className='text-xl  text-white font-black'>Learn X</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
                         Learn X adalah aplikasi pembelajaran yang di rancang khusus untuk membantu siswa dalam membantu pembelajaran</span>
-                        <a  href="https://barudak.vercel.app/" className=' 
+                        <div className="flex gap-2">
+                        <a  href="https://learnx5.vercel.app/" className=' 
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white  my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
+                        <a href="https://github.com/dickymhikam/CP-B5-Binar"  className='
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                        </div>
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
@@ -66,9 +82,14 @@ function Projek() {
                         <h3 className='text-xl  text-white font-black'>Sims PPOB</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
                         Sims PPOB adalah aplikasi yang di rancang khusus untuk alat transaski pembayaran digital</span>
+                        <div className="flex gap-2">
                         <a href="https://simss-ppob-awang-darmawan.vercel.app/"  className='
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
+                        <a href="https://github.com/AwangDarmawan/SIMSS-PPOB-AwangDarmawan"  className='
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                        </div>
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
@@ -81,9 +102,15 @@ function Projek() {
                         <h3 className='text-xl  text-white font-black'>Kartap</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
                         kartap adalah sistem Pendukung Keputusan Pengangkatan karyawan kontrak menjadi karyawan tetap di sebuah PT*** </span>
+                        <div className="flex gap-2">
                         <a href="https://kartap.vercel.app/" className='  
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16  rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
+                        <a href="https://github.com/AwangDarmawan/frontend_Kartap"  className='
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                        </div>
+                        
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
@@ -95,9 +122,14 @@ function Projek() {
                         <h3 className='text-xl  text-white font-black'>Cmlab</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
                         Cmlab Bussines adalah aplikasi jual beli barang </span>
+                        <div className="flex gap-2">
                         <a href="https://kartap.vercel.app/" className='  
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
+                        <a href="https://github.com/AwangDarmawan/cmlabs-frontend-internship-test"  className='
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                        </div>
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Tailwindcss</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
