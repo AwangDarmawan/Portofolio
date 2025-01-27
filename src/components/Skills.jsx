@@ -25,7 +25,7 @@ function Skills() {
           </div>
           <div className='lg:col-span-3  md:col-span-3 sm:col-span-4 col-span-3 flex justify-center items-center flex-col'>
             <img src={boostrap} alt="" className='w-20 h-20'/>
-            <span className='font-bold text-blue-600 font-poppins'>Bootrap</span>
+            <span className='font-bold text-blue-600 font-poppins'>Boostrap</span>
           </div>
           <div className='lg:col-span-3  md:col-span-3 sm:col-span-4 col-span-3 flex justify-center items-center flex-col'>
             <img src={tail} alt="" className='w-20 h-20'/>

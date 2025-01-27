@@ -4,7 +4,8 @@ import Chat from '../assets/img/png/Chating.png'
 import Movie from '../assets/img/png/Movie.png'
 import Sims from '../assets/img/png/Sims.png'
 import Kartap from '../assets/img/png/Kartap.png'
-import grow from '../assets/img/png/Grow.png'
+// import grow from '../assets/img/png/Grow.png'
+import grow from '../assets/img/png/d.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -119,21 +120,21 @@ function Projek() {
                     </div>
                     <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
                         <img src={grow} alt="" className='rounded-2xl'/>
-                        <h3 className='text-xl  text-white font-black'>Cmlab</h3>
+                        <h3 className='text-xl  text-white font-black'>You App</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
-                        Cmlab Bussines adalah aplikasi jual beli barang </span>
+                        You App adalah aplikasi yang di rancang khusus untuk mengetahui zodiac dan horoscope seseorang </span>
                         <div className="flex gap-2">
-                        <a href="https://kartap.vercel.app/" className='  
+                        <a href="https://awang-app-test.vercel.app/" className='  
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/AwangDarmawan/cmlabs-frontend-internship-test"  className='
+                        <a href="https://github.com/AwangDarmawan/YouAppTest"  className='
                         flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
                         </div>
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Tailwindcss</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Next JS</span>
                         </div>
                     </div>
                 </div>
