@@ -14,7 +14,8 @@ function Projek() {
     <>
        {/* <section className='py-9 px-20   bg-purple-900'> */}
             <div className='container'>
-                <h1 className=' text-center text-4xl  text-white font-black'>Projects Me</h1>
+                <h1 className=' text-center text-4xl  text-white font-black'>
+                my creation</h1>
                 <div className='grid grid-cols-12 my-5 '>
                     <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
                         <img src={Movie} alt="" className='rounded-2xl w-full h-44'/>
