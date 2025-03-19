@@ -10,9 +10,9 @@ function Nav() {
 
   return (
     <>
-     <nav className="py-4 px-20 fixed  w-full bg-blue-600">
+     <nav className="py-4 px-10 fixed  w-full bg-blue-600">
       <div className="container  ">
-        <div className="flex items-center justify-between">
+        <div className="flex justify-between">
             <div className="flex flex-row-reverse gap-2 ">
                 <img
                     src={ReactJS}

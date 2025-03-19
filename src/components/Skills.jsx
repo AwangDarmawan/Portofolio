@@ -6,6 +6,8 @@ import boostrap from '../assets/img/png/Boostrap.png';
 import tail from '../assets/img/png/Tailwindcss.png';
 import js from '../assets/img/png/images.png';
 import react from '../assets/img/png/ReactJs.png';
+import Next from '../assets/img/png/NextJs.png';
+import Vue from '../assets/img/png/Vue.png';
 import Ts from '../assets/img/png/Ts.png'
 
 function Skills() {
@@ -40,6 +42,14 @@ function Skills() {
             <span className='font-bold text-blue-600 font-poppins'>React JS</span>
           </div>
           <div className='lg:col-span-3  md:col-span-3 sm:col-span-4  col-span-3 flex justify-center items-center flex-col'>
+            <img src={Next} alt="" className='w-20 h-20'/>
+            <span className='font-bold text-blue-600 font-poppins'>Next JS</span>
+          </div>
+          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4  col-span-3 flex justify-center items-center flex-col'>
+            <img src={Vue} alt="" className='w-20 h-20'/>
+            <span className='font-bold text-blue-600 font-poppins'>Vue JS</span>
+          </div>
+          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4  col-span-3 flex justify-center items-center flex-col mt-5'>
             <img src={Ts} alt="" className='w-20 h-20'/>
             <span className='font-bold text-blue-600 font-poppins'>TypeScript</span>
           </div>

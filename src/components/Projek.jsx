@@ -17,23 +17,23 @@ function Projek() {
                 <h1 className=' text-center text-4xl  text-white font-black'>
                 My creation</h1>
                 <div className='grid grid-cols-12 my-5 '>
-                    <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
-                        <img src={Movie} alt="" className='rounded-2xl w-full h-44'/>
-                        <h3 className='text-xl  text-white font-black'>Movie List</h3>
+                <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
+                        <img src={grow} alt="" className='rounded-2xl'/>
+                        <h3 className='text-xl  text-white font-black'>You App</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
-                        Movie List adalah aplikasi yang dirancang khusus untuk meliha trailer film di bioskop dan bisa untuk memesan tiket </span>
+                        You App adalah aplikasi yang di rancang khusus untuk mengetahui zodiac dan horoscope seseorang </span>
                         <div className="flex gap-2">
-                        <a href="https://barudak.vercel.app/"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
+                        <a href="https://awang-app-test.vercel.app/" className='  
+                        flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/AwangDarmawan/chalengge-5"  className='
+                        <a href="https://github.com/AwangDarmawan/YouAppTest"  className='
                         flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
                         </div>
-                        <div className='flex flex-wrap gap-3 my-3 '>
-                        <span className='bg-gray-300  rounded-xl font-semibold px-1'>#Boostrap</span>
-                        <span className='bg-gray-300  rounded-xl font-semibold px-1'>#Api</span>
-                        <span className='bg-gray-300  rounded-xl font-semibold px-1'>#React JS</span>
+                        <div className="flex flex-wrap  gap-3  my-2">
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Tailwindcss</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Next JS</span>
                         </div>
                     </div>
                     <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3 '>
@@ -59,26 +59,7 @@ function Projek() {
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#PWA</span>
                         </div>
                     </div>
-                    <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
-                        <img src={projek1} alt="" className='rounded-2xl'/>
-                        <h3 className='text-xl  text-white font-black'>Learn X</h3>
-                        <span className=' text-white font-semibold text-sm font-sans'>
-                        Learn X adalah aplikasi pembelajaran yang di rancang khusus untuk membantu siswa dalam membantu pembelajaran</span>
-                        <div className="flex gap-2">
-                        <a  href="https://learnx5.vercel.app/" className=' 
-                        flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white  my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/dickymhikam/CP-B5-Binar"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
-                        </div>
-                        <div className="flex flex-wrap  gap-3  my-2">
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Team</span>
-                        </div>
-                    </div>
+                    
                     <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
                         <img src={Sims} alt="" className='rounded-2xl'/>
                         <h3 className='text-xl  text-white font-black'>Sims PPOB</h3>
@@ -97,6 +78,26 @@ function Projek() {
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Context Api</span>
+                        </div>
+                    </div>
+                    <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
+                        <img src={projek1} alt="" className='rounded-2xl'/>
+                        <h3 className='text-xl  text-white font-black'>Learn X</h3>
+                        <span className=' text-white font-semibold text-sm font-sans'>
+                        Learn X adalah aplikasi pembelajaran yang di rancang khusus untuk membantu siswa dalam membantu pembelajaran</span>
+                        <div className="flex gap-2">
+                        <a  href="https://learnx5.vercel.app/" className=' 
+                        flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white  my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
+                        <a href="https://github.com/dickymhikam/CP-B5-Binar"  className='
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                        </div>
+                        <div className="flex flex-wrap  gap-3  my-2">
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Team</span>
                         </div>
                     </div>
                     <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
@@ -119,23 +120,25 @@ function Projek() {
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
                         </div>
                     </div>
+                    
+
                     <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
-                        <img src={grow} alt="" className='rounded-2xl'/>
-                        <h3 className='text-xl  text-white font-black'>You App</h3>
+                        <img src={Movie} alt="" className='rounded-2xl w-full h-44'/>
+                        <h3 className='text-xl  text-white font-black'>Movie List</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
-                        You App adalah aplikasi yang di rancang khusus untuk mengetahui zodiac dan horoscope seseorang </span>
+                        Movie List adalah aplikasi yang dirancang khusus untuk meliha trailer film di bioskop dan bisa untuk memesan tiket </span>
                         <div className="flex gap-2">
-                        <a href="https://awang-app-test.vercel.app/" className='  
-                        flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
+                        <a href="https://barudak.vercel.app/"  className='
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/AwangDarmawan/YouAppTest"  className='
+                        <a href="https://github.com/AwangDarmawan/chalengge-5"  className='
                         flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
                         </div>
-                        <div className="flex flex-wrap  gap-3  my-2">
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Tailwindcss</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Next JS</span>
+                        <div className='flex flex-wrap gap-3 my-3 '>
+                        <span className='bg-gray-300  rounded-xl font-semibold px-1'>#Boostrap</span>
+                        <span className='bg-gray-300  rounded-xl font-semibold px-1'>#Api</span>
+                        <span className='bg-gray-300  rounded-xl font-semibold px-1'>#React JS</span>
                         </div>
                     </div>
                 </div>
