@@ -42,7 +42,7 @@ function Nav() {
               </li>
               <li>
                 <a href="#Projects" className="text-white  text-sm font-black hover: hover:bg-sky-700  ">
-                  My creation
+                  My Project
                 </a>
               </li>
               <li>
@@ -81,7 +81,7 @@ function Nav() {
                 <a href="#Projects" className="flex justify-center flex-col items-center gap-1 hover:bg-sky-700">
                 <FontAwesomeIcon icon={faBriefcase} className="text-white" /> 
                   <span className="text-white font-black text-base text-bold">
-                  My creation</span>
+                  My Project</span>
                 </a>
               </li>
               <li>
