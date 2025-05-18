@@ -1,13 +1,15 @@
-import React from 'react'
+
 import projek1 from '../assets/img/png/LearnX.png'
 import Chat from '../assets/img/png/Chating.png'
 import Movie from '../assets/img/png/Movie.png'
 import Sims from '../assets/img/png/Sims.png'
 import Kartap from '../assets/img/png/Kartap.png'
 // import grow from '../assets/img/png/Grow.png'
+import Kledo from '../assets/img/png/appkledo.png'
 import grow from '../assets/img/png/d.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 function Projek() {
   return (
@@ -61,7 +63,7 @@ function Projek() {
                     </div>
                     
                     <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
-                        <img src={Sims} alt="" className='rounded-2xl'/>
+                        <img src={Sims} alt="" className='rounded-2xl  w-full h-44'/>
                         <h3 className='text-xl  text-white font-black'>Sims PPOB</h3>
                         <span className=' text-white font-semibold text-sm font-sans'>
                         Sims PPOB adalah aplikasi yang di rancang khusus untuk alat transaski pembayaran digital</span>
@@ -141,8 +143,33 @@ function Projek() {
                         <span className='bg-gray-300  rounded-xl font-semibold px-1'>#React JS</span>
                         </div>
                     </div>
+                    <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
+                        <img src={Kledo} alt="" className='rounded-2xl '/>
+                        <h3 className='text-xl  text-white font-black'>App Kledo</h3>
+                        <span className=' text-white font-semibold text-sm font-sans'>
+                        Kledo adalah Aplikasi yang di rancang khusu untuk mendata anggota dan mencari/melihat barang di sebuah perusahaan   </span>
+                        <div className="flex gap-2">
+                        <a href="https://app-kledo.vercel.app/" className='  
+                        flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16  rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
+                        <a href="https://github.com/AwangDarmawan/AppKledo"  className='
+                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                        </div>
+                        
+                        <div className="flex flex-wrap  gap-3  my-2">
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Tailwind</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Redux Toolkit</span>
+                        </div>
+                    </div>
+                    
                 </div>
+                    
+               
                 </div>
+                
         {/* </section> */}
     </>
   )

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ReactJS from "../assets/img/iconSVG/react.svg"
 import Toggle from "../assets/img/iconSVG/Toogle.svg"
 import github from "../assets/img/png/github.png"

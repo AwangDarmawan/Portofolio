@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Poto from '../assets/img/png/Awang.jpg'
 import potoreact from '../assets/img/iconSVG/react.svg'
 
@@ -19,11 +19,15 @@ function About() {
                     <span className='font-bold  text-lg'> I'm Awang Darmawan</span></span>
                     <h1 className='font-black text-4xl mt-2 mb-8 text-white '>Frontend Web Developer</h1>
                     <span className=' text-white font-semibold text-sm font-sans'>
-                    I am a fresh graduate of Informatics Engineering with a GPA of 3.64 and have the ability to create web frontends, solve programming problems well, fetching APIs and managing program codes well. As a programmer I am able to create web frontends. In addition, I am an enthusiastic person, easy to adapt and can be a leader in teamwork. Now I am looking for a job as a frontend web developer.</span>
-                    <button className=' bg-green-500  flex-row-reverse flex px-20 py-2 rounded-md my-5 text-white font-serif border-l-stone-50'>Let's Talk!</button>
+                   I am Awang Darmawan, a graduate of Informatics Engineering with a GPA of 3.64. I have an interest and competence in the field of technology, especially in software development and basic understanding of hardware. I have participated in the Kampus Merdeka program for 5 months, an internship program and Independent Study as a Frontend Developer Programmer at Binar Academy. In addition, I have also worked on several freelance projects, where I developed web applications with a focus on user interface (UI) design, REST API integration, and efficient and structured code management.</span>
+                   <a
+                      href="https://wa.me/6283125307355" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                    <button className=' bg-green-500 hover:bg-green-200  flex-row-reverse flex px-20 py-2 rounded-md my-5 text-white font-serif border-l-stone-50'>Let's Chat on My WhatsApp!</button>
+                    </a>
                 </div>
-                
-
             </div>
         </div>
       {/* </section> */}
