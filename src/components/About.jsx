@@ -25,7 +25,7 @@ function About() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                    <button className=' bg-green-500 hover:bg-green-200  flex-row-reverse flex px-20 py-2 rounded-md my-5 text-white font-serif border-l-stone-50'>Let's Chat on My WhatsApp!</button>
+                    <button className=' bg-green-500 hover:bg-green-200  flex-row-reverse flex px-3 py-2 rounded-md my-5 text-white font-serif border-l-stone-50'>Let's Chat on My WhatsApp!</button>
                     </a>
                 </div>
             </div>

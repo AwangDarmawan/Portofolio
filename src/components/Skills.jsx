@@ -1,4 +1,3 @@
-import React from 'react'
 
 import Html from '../assets/img/png/Html.png';
 import Css from '../assets/img/png/css.png';
@@ -14,8 +13,8 @@ function Skills() {
   return (
     <>
     {/* <section id='Skills' className='py-9 px-10'> */}
-      <div className='container'>
-        <h1 className=' text-center text-4xl  text-blue-600 font-black'>Skills</h1>
+      <div className='container '>
+        <h1 className=' text-center text-4xl  text-blue-600 font-black '>Skills</h1>
         <div className='my-5  grid grid-cols-12'>
           <div className='my-5 lg:col-span-3  md:col-span-3 sm:col-span-4 col-span-3 justify-center items-center flex flex-col'>
             <img src={Html} alt="" className='w-20 h-20 '/>

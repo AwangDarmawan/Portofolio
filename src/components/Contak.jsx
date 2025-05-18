@@ -1,4 +1,4 @@
-import React from 'react'
+
 import github from "../assets/img/png/github.png"
 import Wa from "../assets/img/png/Wa.png"
 import Ig from "../assets/img/png/IG.png"
