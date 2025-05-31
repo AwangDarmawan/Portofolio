@@ -1,10 +1,8 @@
 
 import projek1 from '../assets/img/png/LearnX.png'
 import Chat from '../assets/img/png/Chating.png'
-import Movie from '../assets/img/png/Movie.png'
 import Sims from '../assets/img/png/Sims.png'
 import Kartap from '../assets/img/png/Kartap.png'
-// import grow from '../assets/img/png/Grow.png'
 import Kledo from '../assets/img/png/appkledo.png'
 import grow from '../assets/img/png/d.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -17,8 +15,26 @@ function Projek() {
        {/* <section className='py-9 px-20   bg-purple-900'> */}
             <div className='container'>
                 <h1 className=' text-center text-4xl  text-white font-black'>
-                My Project</h1>
-                <div className='grid grid-cols-12 my-5 '>
+                    My Project</h1>
+                <div className='grid grid-cols-12 my-5'>
+                       <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
+                        <img src={Sims} alt="" className='rounded-2xl  w-full h-44'/>
+                        <h3 className='text-xl  text-white font-black'>Sims PPOB</h3>
+                        <span className=' text-white font-semibold text-sm font-sans'>
+                        Sims PPOB adalah aplikasi yang di rancang khusus untuk alat transaski pembayaran digital</span>
+                        <div className="flex gap-2">
+                        <a href="https://esimsppob.vercel.app/"  className='
+                        flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
+                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
+                       
+                        </div>
+                        <div className="flex flex-wrap  gap-3  my-2">
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Context Api</span>
+                        </div>
+                    </div>
                 <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
                         <img src={grow} alt="" className='rounded-2xl'/>
                         <h3 className='text-xl  text-white font-black'>You App</h3>
@@ -28,9 +44,7 @@ function Projek() {
                         <a href="https://awang-app-test.vercel.app/" className='  
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/AwangDarmawan/YouAppTest"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                       
                         </div>
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Tailwindcss</span>
@@ -48,9 +62,7 @@ function Projek() {
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
                    
-                        <a href="https://github.com/AwangDarmawan/websocket-chat"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                        
                         </div>
                    
                         <div className="flex flex-wrap  gap-3  my-2">
@@ -62,26 +74,7 @@ function Projek() {
                         </div>
                     </div>
                     
-                    <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
-                        <img src={Sims} alt="" className='rounded-2xl  w-full h-44'/>
-                        <h3 className='text-xl  text-white font-black'>Sims PPOB</h3>
-                        <span className=' text-white font-semibold text-sm font-sans'>
-                        Sims PPOB adalah aplikasi yang di rancang khusus untuk alat transaski pembayaran digital</span>
-                        <div className="flex gap-2">
-                        <a href="https://simss-ppob-awang-darmawan.vercel.app/"  className='
-                        flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/AwangDarmawan/SIMSS-PPOB-AwangDarmawan"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
-                        </div>
-                        <div className="flex flex-wrap  gap-3  my-2">
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Context Api</span>
-                        </div>
-                    </div>
+                 
                     <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
                         <img src={projek1} alt="" className='rounded-2xl'/>
                         <h3 className='text-xl  text-white font-black'>Learn X</h3>
@@ -91,9 +84,7 @@ function Projek() {
                         <a  href="https://learnx5.vercel.app/" className=' 
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white  my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/dickymhikam/CP-B5-Binar"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                       
                         </div>
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
@@ -111,9 +102,7 @@ function Projek() {
                         <a href="https://kartap.vercel.app/" className='  
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16  rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/AwangDarmawan/frontend_Kartap"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                     
                         </div>
                         
                         <div className="flex flex-wrap  gap-3  my-2">
@@ -122,27 +111,7 @@ function Projek() {
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
                         </div>
                     </div>
-                    
-
-                    <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
-                        <img src={Movie} alt="" className='rounded-2xl w-full h-44'/>
-                        <h3 className='text-xl  text-white font-black'>Movie List</h3>
-                        <span className=' text-white font-semibold text-sm font-sans'>
-                        Movie List adalah aplikasi yang dirancang khusus untuk meliha trailer film di bioskop dan bisa untuk memesan tiket </span>
-                        <div className="flex gap-2">
-                        <a href="https://barudak.vercel.app/"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-16 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/AwangDarmawan/chalengge-5"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
-                        </div>
-                        <div className='flex flex-wrap gap-3 my-3 '>
-                        <span className='bg-gray-300  rounded-xl font-semibold px-1'>#Boostrap</span>
-                        <span className='bg-gray-300  rounded-xl font-semibold px-1'>#Api</span>
-                        <span className='bg-gray-300  rounded-xl font-semibold px-1'>#React JS</span>
-                        </div>
-                    </div>
+                
                     <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
                         <img src={Kledo} alt="" className='rounded-2xl '/>
                         <h3 className='text-xl  text-white font-black'>App Kledo</h3>
@@ -152,9 +121,7 @@ function Projek() {
                         <a href="https://app-kledo.vercel.app/" className='  
                         flex flex-items-center gap-2 font-poppins font-bold bg-green-500 w-16  rounded-xl  text-white my-3'>
                         <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />Web</a>
-                        <a href="https://github.com/AwangDarmawan/AppKledo"  className='
-                        flex  gap-2 font-poppins font-bold bg-green-500 w-20 rounded-xl  text-white my-3'>
-                        <FontAwesomeIcon icon={faSignInAlt } className='pt-1 ml-1' />github</a>
+                       
                         </div>
                         
                         <div className="flex flex-wrap  gap-3  my-2">
