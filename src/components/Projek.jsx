@@ -31,8 +31,10 @@ function Projek() {
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Bootstrap</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Context Api</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React TS</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Redux</span>
+                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#TypesScript</span>
+
                         </div>
                     </div>
                 <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
@@ -70,7 +72,7 @@ function Projek() {
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Express JS</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#PWA</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Progressive Web Apps</span>
                         </div>
                     </div>
                     
@@ -127,15 +129,32 @@ function Projek() {
                         <div className="flex flex-wrap  gap-3  my-2">
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Tailwind</span>
                         <span className="bg-gray-300 rounded-xl font-semibold px-1">#Api</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React JS</span>
-                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Redux Toolkit</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#React TS</span>
+                        <span className="bg-gray-300 rounded-xl font-semibold px-1">#Redux</span>
+                           <span className="bg-gray-300 rounded-xl font-semibold px-1">#TypeScript</span>
                         </div>
                     </div>
-                    
                 </div>
+                
                     
-               
-                </div>
+                 <div className='col-span-12 lg:col-span-4 md:col-span-4 py-5 px-3'>
+                   <div className="bg-white rounded-2xl p-4 h-44 flex flex-col justify-between">
+                 <h3 className='text-xl text-black font-black'>Design Portfolio (PDF)</h3>
+                 <span className='text-gray-700 font-semibold text-sm font-sans'>
+                Download my graphic design project portfolio in PDF format.
+               </span>
+             <a 
+             href="https://drive.google.com/file/d/1Ecs8QFhEnjSMo7VT1vk8N2SaZxsV3dQe/view?usp=drivesdk" 
+             download 
+             className='flex items-center gap-2 font-poppins font-bold bg-purple-600 w-fit px-4 py-2 rounded-xl text-white mt-2'
+            >
+           <FontAwesomeIcon icon={faSignInAlt} className='pt-1' />
+            Download PDF
+            </a>
+           </div>
+        </div>
+
+    </div>
                 
         {/* </section> */}
     </>

@@ -19,7 +19,9 @@ function About() {
                     <span className='font-bold  text-lg'> I'm Awang Darmawan</span></span>
                     <h1 className='font-black text-4xl mt-2 mb-8 text-white '>Frontend Web Developer</h1>
                     <span className=' text-white font-semibold text-sm font-sans'>
-                   I am Awang Darmawan, a graduate of Informatics Engineering with a GPA of 3.64. I have an interest and competence in the field of technology, especially in software development and basic understanding of hardware. I have participated in the Kampus Merdeka program for 5 months, an internship program and Independent Study as a Frontend Developer Programmer at Binar Academy. In addition, I have also worked on several freelance projects, where I developed web applications with a focus on user interface (UI) design, REST API integration, and efficient and structured code management.</span>
+                   I am Awang Darmawan, a graduate of Informatics Engineering with a GPA of 3.64, passionate about technology especially software development and have a deep understanding of hardware fundamentals. I have completed the 5-month Kampus Merdeka program as a Frontend Developer Programmer at Binar Academy, where I gained hands-on experience in building responsive and well-structured web applications both as a team and individually, integrating RESTful APIs, and managing clean and efficient code.<br/>
+                   In addition, I have also worked on several freelance projects focused on web development and graphic design, involving UI planning and technical implementation. I am proficient in technologies such as HTML, CSS, JavaScript, React.js,Next Js,Typsecript,and design tools such as Adobe Photoshop and Canva. <br />
+                   With strong technical skills, creativity in UI/UX design, and a high desire to learn, I am ready to contribute to any team in building impactful and innovative digital solutions.</span>
                    <a
                       href="https://wa.me/6283125307355" 
                       target="_blank"
