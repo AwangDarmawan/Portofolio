@@ -1,5 +1,5 @@
 
-import Poto from '../assets/img/png/Awang.jpg'
+import Poto from '../assets/img/png/aaw.jpg'
 import potoreact from '../assets/img/iconSVG/react.svg'
 
 function About() {
@@ -10,7 +10,7 @@ function About() {
             <div className='grid grid-cols-12 sm:my-11 '>
             <div className='col-span-12 lg:col-span-6  md:col-span-6 sm:col-span-12 '>
                 <div className='flex  mx-auto justify-center rounded-xl'>
-                 <img src={Poto} alt="" className='w-1/2  rounded-full border-2 ' />
+                 <img src={Poto} alt="" className='w-1/2  rounded-full ' />
                  <img src={potoreact} alt="" className='w-14 h-14 animate-spin-slow  mt-auto'/>
                  </div>
                 </div>
