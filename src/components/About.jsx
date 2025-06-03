@@ -16,7 +16,7 @@ function About() {
                 </div>
                 <div className='col-span-12 lg:col-span-6  md:col-span-6 sm:col-span-12 sm:my-11'>
                     <span className='flex  text-white'>Hi ,<span className='animate-wave pe-1'>👋</span>
-                    <span className='font-bold  text-lg'> I'm Awang Darmawan</span></span>
+                    <span className='font-bold  text-lg'> I&#39;m Awang Darmawan</span></span>
                     <h1 className='font-black text-4xl mt-2 mb-8 text-white '>Frontend Web Developer</h1>
                     <span className=' text-white font-semibold text-sm font-sans'>
                    I am Awang Darmawan, a graduate of Informatics Engineering with a GPA of 3.64, passionate about technology especially software development and have a deep understanding of hardware fundamentals. I have completed the 5-month Kampus Merdeka program as a Frontend Developer Programmer at Binar Academy, where I gained hands-on experience in building responsive and well-structured web applications both as a team and individually, integrating RESTful APIs, and managing clean and efficient code.<br/>
@@ -27,7 +27,7 @@ function About() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                    <button className=' bg-green-500 hover:bg-green-200  flex-row-reverse flex px-3 py-2 rounded-md my-5 text-white font-serif border-l-stone-50'>Let's Chat on My WhatsApp!</button>
+                    <button className=' bg-green-500 hover:bg-green-200  flex-row-reverse flex px-3 py-2 rounded-md my-5 text-white font-serif border-l-stone-50'>Let&#39;s Chat on My WhatsApp!</button>
                     </a>
                 </div>
             </div>

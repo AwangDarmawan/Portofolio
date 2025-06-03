@@ -26,7 +26,7 @@ function Nav() {
             onClick={() => setNavOpen(!navOpen)}
             src={Toggle}
             alt=""
-            className="order-2 sm:order-1 lg:hidden bg-white"
+            className="order-2 sm:order-1 lg:hidden text-purple-950"
           />
           <div className="order-2 hidden lg:block">
             <ul className="flex gap-16">
