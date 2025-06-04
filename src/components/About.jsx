@@ -15,10 +15,10 @@ function About() {
                  </div>
                 </div>
                 <div className='col-span-12 lg:col-span-6  md:col-span-6 sm:col-span-12 sm:my-11'>
-                    <span className='flex font-bold text-gray-600'>Hi ,<span className='animate-wave pe-1'>👋</span>
+                    <span className='flex font-bold text-gray-900'>Hi ,<span className='animate-wave pe-1'>👋</span>
                     <span className='text-lg'> I&#39;m Awang Darmawan</span></span>
-                    <h2 className=' text-lg mt-2 mb-8 text-gray-900  font-black w-[24ch] overflow-hidden whitespace-nowrap border-r-4 border-r-black font-mono dark:text-white animate-typing'>FRONT-END WEB DEVELOPER</h2>
-                    <span className='  text-gray-600 font-semibold text-sm font-sans animate-blink'>
+                    <h2 className=' text-lg mt-2 mb-8 text-gray-900  font-black w-[24ch] overflow-hidden whitespace-nowrap border-r-4 border-r-black font-mono animate-typing'>FRONT-END WEB DEVELOPER</h2>
+                    <span className='  text-gray-900 font-semibold text-sm font-sans animate-blink'>
                    I am Awang Darmawan, a graduate of Informatics Engineering with a GPA of 3.64, passionate about technology especially software development and have a deep understanding of hardware fundamentals. I have completed the 5-month Kampus Merdeka program as a Frontend Developer Programmer at Binar Academy, where I gained hands-on experience in building responsive and well-structured web applications both as a team and individually, integrating RESTful APIs, and managing clean and efficient code.<br/>
                    In addition, I have also worked on several freelance projects focused on web development and graphic design, involving UI planning and technical implementation. I am proficient in technologies such as HTML, CSS, JavaScript, React.js,Next Js,Typsecript,and design tools such as Adobe Photoshop and Canva. <br />
                    With strong technical skills, creativity in UI/UX design, and a high desire to learn, I am ready to contribute to any team in building impactful and innovative digital solutions.</span>
