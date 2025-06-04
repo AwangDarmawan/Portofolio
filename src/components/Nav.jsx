@@ -9,7 +9,7 @@ function Nav() {
 
   return (
     <>
-     <nav className="fixed  w-full py-20 px-10">
+     <nav className=" w-full  px-10">
       <div className="container  bg-gray-300  border-2  border-gray-200 rounded-lg shadow-sm ">
         <div className="flex justify-between">
             <div className="flex flex-row-reverse gap-2 ">
