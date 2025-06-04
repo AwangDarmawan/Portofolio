@@ -1,9 +1,8 @@
 import { useState } from "react";
 import ReactJS from "../assets/img/iconSVG/react.svg"
-import Toggle from "../assets/img/iconSVG/Toogle.svg"
 import github from "../assets/img/png/github.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faEnvelope, faBriefcase, faLightbulb } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faEnvelope, faBriefcase, faLightbulb,faBars} from '@fortawesome/free-solid-svg-icons';
 
 function Nav() {
   const [navOpen, setNavOpen] = useState(true);
@@ -21,13 +20,11 @@ function Nav() {
                 />
                 <span className="my-auto font-black text-gray-900 ">FRONTEND WEB</span>
             </div>
-          
-          <img
+          <FontAwesomeIcon
+            icon={faBars}
             onClick={() => setNavOpen(!navOpen)}
-            src={Toggle}
-            alt=""
-            className="order-2 sm:order-1 lg:hidden  hover:bg-gray-200"
-          />
+            className="text-black hover:text-gray-500 w-10 h-7 my-5  mx-2 cursor-pointer order-2 sm:order-1 lg:hidden"
+            />
           <div className="order-2 hidden lg:block  my-5">
             <ul className="flex gap-16">
               <li>

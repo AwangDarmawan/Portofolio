@@ -16,10 +16,10 @@ function Portofolio() {
       <Skills/>
       </section>
     
-      <section id="Projects" className='py-9 px-10'>
+      <section id="Projects" className='py-20 px-10'>
       <Projek/>
       </section>
-      <section id='Contact' className='py-9 px-10 my-10 '>
+      <section id='Contact' className='py-20 px-10 my-10 '>
       <Contak/>
       </section>
     </>
