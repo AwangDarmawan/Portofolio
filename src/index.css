@@ -7,11 +7,12 @@
       font-family: 'Montserrat';
       src: url('./assets/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
   }
-  /* memodifikasi default */
   
-  h1{
-      font-family:poppins ;
+  
+   body {
+    @apply  bg-gray-50   font-sans transition-colors duration-300;
   }
+
 
  
   }

@@ -7,9 +7,9 @@ function Contak() {
     <>
      
       <div className='container'>
-        <h1 className=' text-center text-4xl  text-blue-600 font-black'>Contact Me</h1>
+        <h1 className=' text-center text-4xl text-gray-900  font-black '>Contact Me</h1>
         <div className=' flex justify-center my-6'>
-            <a  className=' flex gap-3 bg-gray-300 font-bold rounded-xl  text-xl justify-center w-60 '> <img src={github} alt="" className='w-10' /> see contact me</a>
+            <a  className=' flex gap-3 bg-gray-300 font-bold rounded-xl  text-xl justify-center w-60 '> <img src={github} alt="" className='w-10' />See contact me</a>
         </div>
         <div className=' flex justify-center my-6'>
             <a href="https://wa.me/6283125307355" className=' flex gap-3 bg-gray-300 font-bold rounded-xl  w-60 text-xl justify-center '> <img src={Wa} alt="" className='w-10 ' />+6283125307355</a>

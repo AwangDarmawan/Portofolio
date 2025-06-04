@@ -10,53 +10,38 @@ import Vue from '../assets/img/png/Vue.png';
 import Ts from '../assets/img/png/Ts.png'
 
 function Skills() {
+  const skills = [
+    { img: Html, name: "HTML" },
+    { img: Css, name: "CSS" },
+    { img: boostrap, name: "Bootstrap" },
+    { img: tail, name: "TailwindCSS" },
+    { img: js, name: "JavaScript" },
+    { img: react, name: "React JS" },
+    { img: Next, name: "Next JS" },
+    { img: Vue, name: "Vue JS" },
+    { img: Ts, name: "TypeScript" },
+  ];
+
   return (
-    <>
-    {/* <section id='Skills' className='py-9 px-10'> */}
-      <div className='container '>
-        <h1 className=' text-center text-4xl  text-blue-600 font-black '>Skills</h1>
-        <div className='my-5  grid grid-cols-12'>
-          <div className='my-5 lg:col-span-3  md:col-span-3 sm:col-span-4 col-span-3 justify-center items-center flex flex-col'>
-            <img src={Html} alt="" className='w-20 h-20 '/>
-            <span className='font-bold text-blue-600 font-poppins'>Html</span>
+    <div className="container mx-auto my-10 px-4 py-8 bg-gray-300  border-b-2  border-gray-200  900 rounded-2xl shadow-xl transition-colors duration-300">
+      <h1 className="text-center text-4xl font-black text-gray-800 d mb-6">
+        SKILLS
+      </h1>
+
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center">
+        {skills.map((skill, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 hover:scale-105 hover:shadow-2xl transition-all duration-300 rounded-xl p-4 flex flex-col items-center"
+          >
+            <img src={skill.img} alt={skill.name} className="w-16 h-16 mb-2" />
+            <span className="text-sm sm:text-base font-semibold text-gray-800  ">
+              {skill.name}
+            </span>
           </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4 col-span-3 flex justify-center items-center flex-col '>
-            <img src={Css} alt="" className='w-20 h-20'/>
-            <span className='font-bold text-blue-600 font-poppins'>Css</span>
-          </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4 col-span-3 flex justify-center items-center flex-col'>
-            <img src={boostrap} alt="" className='w-20 h-20'/>
-            <span className='font-bold text-blue-600 font-poppins'>Boostrap</span>
-          </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4 col-span-3 flex justify-center items-center flex-col'>
-            <img src={tail} alt="" className='w-20 h-20'/>
-            <span className='font-bold text-blue-600 font-poppins'>TailwindCSS</span>
-          </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4 col-span-3 flex justify-center items-center flex-col'>
-            <img src={js} alt="" className='w-20 h-20'/>
-            <span className='font-bold text-blue-600 font-poppins'>Java Script</span>
-          </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4  col-span-3 flex justify-center items-center flex-col'>
-            <img src={react} alt="" className='w-20 h-20'/>
-            <span className='font-bold text-blue-600 font-poppins'>React JS</span>
-          </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4  col-span-3 flex justify-center items-center flex-col'>
-            <img src={Next} alt="" className='w-20 h-20'/>
-            <span className='font-bold text-blue-600 font-poppins'>Next JS</span>
-          </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4  col-span-3 flex justify-center items-center flex-col'>
-            <img src={Vue} alt="" className='w-20 h-20'/>
-            <span className='font-bold text-blue-600 font-poppins'>Vue JS</span>
-          </div>
-          <div className='lg:col-span-3  md:col-span-3 sm:col-span-4  col-span-3 flex justify-center items-center flex-col mt-5'>
-            <img src={Ts} alt="" className='w-20 h-20'/>
-            <span className='font-bold text-blue-600 font-poppins'>TypeScript</span>
-          </div>
-        </div>
+        ))}
       </div>
-    {/* </section> */}
-      
-    </>
-  )
+    </div>
+  );
 }
-export default Skills
+export default Skills;
