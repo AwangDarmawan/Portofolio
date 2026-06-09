@@ -19,9 +19,7 @@ function About() {
                     <span className='text-lg'> I&#39;m Awang Darmawan</span></span>
                     <h2 className=' text-lg mt-2 mb-8 text-gray-900  font-black w-[24ch] overflow-hidden whitespace-nowrap border-r-4 border-r-black font-mono animate-typing'>FRONT-END WEB DEVELOPER</h2>
                     <span className='text-gray-900 font-semibold text-sm font-sans animate-blink'>
-                   I am Awang Darmawan, a graduate of Informatics Engineering with a GPA of 3.64, passionate about technology especially software development and have a deep understanding of hardware fundamentals. I have completed the 5-month Kampus Merdeka program as a Frontend Developer Programmer at Binar Academy, where I gained hands-on experience in building responsive and well-structured web applications both as a team and individually, integrating RESTful APIs, and managing clean and efficient code.<br/>
-                   In addition, I have also worked on several freelance projects focused on web development and graphic design, involving UI planning and technical implementation. I am proficient in technologies such as HTML, CSS, JavaScript, React.js,Next Js,Typsecript,and design tools such as Adobe Photoshop and Canva. <br />
-                   With strong technical skills, creativity in UI/UX design, and a high desire to learn, I am ready to contribute to any team in building impactful and innovative digital solutions.</span>
+                  I am Awang Darmawan, a Bachelor s Degree graduate in Informatics Engineering with a GPA of 3.64, possessing a strong interest in technology, administration, web development, and graphic design. I have more than one year of experience as an Administrative Operator and five months of experience as a Frontend Developer Intern at Binar Academy. I am accustomed to working in an organized and detail-oriented manner, adapt quickly to new environments, and am capable of working effectively both independently and as part of a team..</span>
                    <a
                       href="https://wa.me/6283125307355" 
                       target="_blank"
